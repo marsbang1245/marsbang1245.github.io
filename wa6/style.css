@@ -1,0 +1,42 @@
+
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    font-family:'Segoe UI', sans-serif;
+    background-color: red;
+    background-image: url(surf.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .logo img{
+    position: absolute;
+    background: radial-gradient(white,rgba(0,0,0,0));
+    border-radius: 20px;
+    padding: 15px;
+    top: 60px;
+    left: 10px;
+    max-height: auto;
+    max-width: 100px;
+}
+
+.caption p{
+  color: rgba(26,39,90,1);
+  position: bottom;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: aqua;
+  padding: 5px;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.bottom-left-image {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 200px; 
+    height: auto; 
+}
