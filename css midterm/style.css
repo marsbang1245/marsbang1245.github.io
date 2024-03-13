@@ -1,0 +1,340 @@
+
+
+header {
+    background-color: #4bf5c8;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+header img {
+    width: 2in;
+    height: auto;
+    max-width: 100%; 
+}
+header h1,
+header h2,
+header h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+}
+
+
+#vivaldi-image {
+    width: 200px;
+    height: 200px;
+}
+#beethoven-image {
+    width: 200px; 
+    height: 200px; 
+}
+#tchaikovsky-image {
+    width: 200px; 
+    height: 200px; 
+}
+#ravels-image {
+    width: 200px; 
+    height: 200px; 
+}
+#symphony8-image {
+    width: 200px; 
+    height: 200px; 
+}
+#emperor-image {
+    width: 200px;
+    height: 200px; 
+}
+#bartok-image {
+    width: 200px; 
+    height: 200px; 
+}
+#brahms-image {
+    width: 200px; 
+    height: 200px; 
+}
+#violin-image {
+    width: 200px; 
+    height: 200px; 
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    color: #4169E1;
+}
+
+header, footer {
+    background-color: #f59b4b;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+}
+
+section {
+    margin: 20px;
+    padding: 10px;
+}
+
+@media (max-width: 400px) {
+    nav {
+        display: none; 
+    }
+
+    section {
+        margin: 10px;
+        padding: 5px;
+    }
+}
+
+@media (min-width: 1500px) {
+    body {
+        max-width: 1500px;
+        margin: auto;
+    }
+
+    header, footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 0 30px;
+    }
+
+    section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 20px;
+    }
+
+    section > p, section > h3 {
+        width: 45%;
+    }
+}
+
+
+section {
+    border: 2px solid #4169E1; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px; 
+    position: relative; 
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.details-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+}
+
+.featured, .repertoire {
+    flex-basis: 48%; 
+}
+
+#beethoven-symphony-no-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#beethoven-symphony-no-3 h2,
+#beethoven-symphony-no-3 p {
+    width: 100%;
+}
+
+.details-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.featured,
+.repertoire {
+    flex-basis: 50%;
+}
+
+.buy-tickets {
+    align-self: flex-end;
+}
+#tchaikovsky-piano-concerto-no-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#tchaikovsky-piano-concerto-no-1 h2,
+#tchaikovsky-piano-concerto-no-1 p {
+    width: 100%;
+}
+
+.details-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.featured,
+.repertoire {
+    flex-basis: 50%;
+}
+
+.buy-tickets {
+    align-self: flex-end;
+}
+#ravels-daphnis-et-chloe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#ravels-daphnis-et-chloe h2,
+#ravels-daphnis-et-chloe p {
+    width: 100%;
+}
+
+.details-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.featured,
+.repertoire {
+    flex-basis: 50%;
+}
+
+.buy-tickets {
+    align-self: flex-end;
+}
+#beethoven-symphony-no-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#beethoven-symphony-no-8 h2,
+#beethoven-symphony-no-8 p {
+    width: 100%;
+}
+
+.details-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.featured,
+.repertoire {
+    flex-basis: 50%;
+}
+
+.buy-tickets {
+    align-self: flex-end;
+}
+#beethovens-emperor-concerto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#beethovens-emperor-concerto h2,
+#beethovens-emperor-concerto p {
+    width: 100%;
+}
+
+.details-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.featured,
+.repertoire {
+    flex-basis: 50%;
+}
+
+.buy-tickets {
+    align-self: flex-end;
+}
+#bartok-concerto-for-orchestra {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#bartok-concerto-for-orchestra h2,
+#bartok-concerto-for-orchestra p {
+    width: 100%;
+}
+
+.details-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.featured,
+.repertoire {
+    flex-basis: 50%;
+}
+
+.buy-tickets {
+    align-self: flex-end;
+}
+#brahms-requiem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#brahms-requiem h2,
+#brahms-requiem p {
+    width: 100%;
+}
+
+.details-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.featured,
+.repertoire {
+    flex-basis: 50%;
+}
+
+.buy-tickets {
+    align-self: flex-end;
+}
+#beethoven-violin-concerto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#beethoven-violin-concerto h2,
+#beethoven-violin-concerto p {
+    width: 100%;
+}
+
+.details-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.featured,
+.repertoire {
+    flex-basis: 50%;
+}
