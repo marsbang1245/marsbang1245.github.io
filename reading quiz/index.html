@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Math Operations</title>
+</head>
+<body>
+
+<label for="numberInput">Enter a number:</label>
+<input type="text" id="numberInput">
+
+<p id="resultPara"></p>
+
+<script>
+function squared(num) {
+  return num * num;
+}
+
+function cubed(num) {
+  return num * num * num;
+}
+
+function factorial(num) {
+  if (num < 0) return undefined;
+  if (num === 0) return 1;
+  let x = num - 1;
+  while (x > 1) {
+    num *= x;
+    x--;
+  }
+  return num;
+}
+
+function squareRoot(num) {
+  return Math.sqrt(num);
+}
+
+const input = document.getElementById("numberInput");
+const para = document.getElementById("resultPara");
+
+input.addEventListener("input", () => {
+  const num = parseFloat(input.value);
+  if (isNaN(num)) {
+    para.textContent = "You need to enter a number!";
+  } else {
+    para.textContent = `${num} squared is ${squared(num)}. `;
+    para.textContent += `${num} cubed is ${cubed(num)}. `;
+    para.textContent += `${num} factorial is ${factorial(num)}. `;
+    para.textContent += `The square root of ${num} is ${squareRoot(num)}.`;
+  }
+});
+</script>
+
+</body>
+</html>
