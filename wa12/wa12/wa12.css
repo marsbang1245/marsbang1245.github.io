@@ -1,0 +1,82 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  color: #000;
+  background-color: #fddfc4;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #f67fd8;
+  color: #FFF;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+}
+
+header h1 {
+  font-family: 'Courier New', Courier, monospace;
+  color: #000;
+  font-size: 28px;
+  font-style: italic; 
+  font-weight: bold; 
+}
+
+.quotes, .controls {
+  border: 2px solid #4169E1; 
+  padding: 20px;
+  margin: 20px auto; 
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px; 
+}
+
+.quote-text, .author-text {
+  font-family: 'Courier New', Courier, monospace;
+  color: #000;
+  margin: 10px 0;
+}
+
+.new-quote, .twitter {
+  background-color: #f59b4b;
+  color: #FFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none; 
+  display: inline-block; 
+  margin: 10px;
+}
+
+.new-quote:hover, .twitter:hover {
+  background-color: #4169E1;
+  color: #fddfc4;
+}
+
+footer {
+  background-color: #f59b4b;
+  color: #FFF;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+a {
+  color: #4169E1;
+  text-decoration: none; 
+}
+
+
+@media (max-width: 400px) {
+  .quotes, .controls {
+      width: 95%;
+      padding: 10px;
+  }
+}
