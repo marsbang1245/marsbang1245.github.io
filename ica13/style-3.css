@@ -23,3 +23,12 @@ h1 {
   color: transparent;
   text-shadow: 0 0 4px white;
 }
+.overlay-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 300px; /* Adjust width as needed */
+  height: 300px; /* Adjust height as needed */
+}
