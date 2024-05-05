@@ -45,8 +45,8 @@ canvas {
     left: 0;
     width: 100vw; 
     height: 100vh; 
-    object-fit: cover; /* Cover the entire viewport */
-    z-index: -1; /* Ensure the GIF is behind other content */
+    object-fit: cover; 
+    z-index: -1; 
 }
 
 
