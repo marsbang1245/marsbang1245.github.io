@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('depositphotos_641127048-stock-photo-video-game-background-landscape-mountains.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.volume-control {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.volume-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.overlay img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; 
+    height: 100vh; 
+    object-fit: cover; 
+    z-index: -1; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
